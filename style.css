@@ -1,0 +1,58 @@
+.minderbreed {
+    width: 70%;
+}
+
+#headertitle {
+    line-height: 0.8em;
+}
+
+nav {
+    width: 100%;
+    background: #F7F5E8;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    font-weight: 400;
+    color: black;
+}
+
+a:hover {
+    color: #0B24FB;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.image {
+    width: 400px;
+    height: auto;
+}
+
+.image2 {
+    width: 850px;
+    height: auto;
+}
+
+.vormen {
+    margin-bottom: 12vh;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #0B24FB;
+    text-align: justify;
+ }

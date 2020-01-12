@@ -7,6 +7,7 @@
 
     <!-- bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
 
    <!-- titel v/d pagina -->
     <title>Information Design</title>
@@ -19,33 +20,69 @@
   <body style="background-color:#F7F5E8;">
 
     <!-- fixed titel bovenaan links -->
-    <div class="row">
-      <div class="col">
+    <!--<div class="row">
+      <div class="col-sm">
         <div class="container position-fixed fixed-top ">
           <h2>Information Design</h2>
         </div>
       </div>
+    </div> -->
+
+<div id="informatie"> 
+  <p>
+    <font color="#F7F5E8">
+      hey
+    </font>
+  </p>
+</div>
+
+    <!-- HEADER-->
+    <div class="container position-fixed fixed-top">
+      <nav>
+      <div class="row">
+        <div class="col-md">
+          <a href="#informatie"><h2 id="title">Information Design</h2></a>
+        </div>
+        <div class="col-md" style="margin-top: 12px;">
+            <ul>
+              <li><a href="#wat, waarom, hoe">WWH</a></li>
+              <li><a href="#vorm">VORMEN</a></li>
+              <li><a href="#CMD?">CMD?</a></li>
+              <li><a href="#TIPS">TIPS&GUIDELINES</a></li>
+              <li><a href="#TOOLS">TOOLS</a></li>
+            </ul>
+        </div>
+      </div>
+      </nav>
     </div>
 
     <!-- introtitel -->
-    <div class="container" style="height: 500px">
-      <p
+    <div class="container minderbreed" style="height: 100vh">
+      <p id="headertitle"
         class="text-left align-items-left"
-        style="font-size: 109px; font-weight: bold; margin-top:20%"
+        style="font-size: 110px; font-weight: bold; margin-top:20%"
       >
       <font color="#0B24FB">
         Information Design
       </font>
       </p>
-        <p class="text-justify"> <h4>
-          Welkom in de wereld van Information design
-        </h4>
-        </p>
+        <p class="text-justify"><h3><i>
+          Welkom bij Information design, waar Calvin Tentua en Edgar Glasbergen jullie mee zullen nemen in een boeiend verhaal naar de essentie van Information Design. 
+          Dit zullen zij doen door het te hebben over de verschillende vormen die er zijn, de connectie tussen information design en CMD, welke tools je nodig hebt en nog veel meer.
+          Veel plezier, topper ;)
+        </i></h3>
+        <h1><span>&#8595;</span></h1>
     </div>
 
-    <!-- 3 kolommen -->
-    <div class="container" style="height: 500px">
-        <div class="row">
+    <div class="container minderbreed">
+      <p class="text-justify"> <h3><i>
+        Stap 1. Om je eerst een kleine intro te geven voor we in het diepe duiken leggen we je eerst wat uit over Information Design aan de hand van de Wat, Waarom en Hoe? 
+      </i></h3>
+    </div>
+
+    <!-- WAT -->
+    <div class="container minderbreed" style="height: 100vh;">
+        <div class="row"  id="wat, waarom, hoe" style="padding-top: 25vh;">
           <div class="col-sm">
             <h2><font color="#0B24FB">Wat?</font></h2>
             <p>Wat information design precies is, is moeilijk uit te drukken. Zo zijn er verschillende namen in de 
@@ -74,6 +111,8 @@
         </div>
       </div>
 
+
+<!--
       <div class="bd-example" style="height: 500px">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -113,6 +152,263 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
+      </div> -->
+
+
+      <!-- tekst VORMEN -->
+      <div class="container minderbreed" style="margin-bottom: 25vh;">
+        <p class="text-justify"> <h3><i>
+          Stap 2. Nu je een beetje weet wat Information Design is en waarom het voor de mens handig is gaan we je uitleggen welke verschillende vormen er zijn. Wellicht dat er een paar je wel bekend voorkomen!
+        </i></h3>
+      </div>
+
+      <!-- VORMEN -->
+      <div class="container minderbreed" style="height: 100vh;">
+        <h2><font color="#0B24FB" id="vorm" style="padding-top: 25vh;">Vormen van information design</font></h2>
+        <div class="row vormen" style="padding-top: 10vh;">
+          <div class="col-6">
+            <h4>
+              Alphanumeric
+            </h4>
+            <p>
+              Alphanummeric verwijst naar Information Design dat gebaseerd is op typografie. Het wordt toegepast in situaties waarin leesbaarheid en leesgemak primair zijn binnen het verschaffen van informatie. Toepassingen van Alphanummeric (Alfanumeriek) zijn: letterform design, type design, form design, timetables en signage (bewegwijzering).
+            </p>
+          </div>
+          <div class="col-6">
+            <img src="timetable.jpeg" class="image"/>
+          </div>
+        </div>
+
+        <div class="row vormen">
+          <div class="col-6">
+            <img src="pictogrammic.jpeg" class="image"/>
+          </div>
+          <div class="col-6">
+            <h4>
+              Pictogrammic
+            </h4>
+            <p>
+              Pictogrammic verwijst naar vormen van non-verbale communicatie. Deze categorie is uniek omdat deze taalbarrières overschrijdt. Binnen Information Design worden symbolen vaak ontwikkeld in groepen, zoals voor de Olympische Spelen. Typische vormen van deze categorie zijn: symbols, pictorial symbol, glyphs en pictogram (9000 voor Christus werden deze al gebruikt door verschillende oude culturen over de gehele wereld).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container minderbreed" style="padding-top: 20vh;">
+        <div class="row vormen">
+          <div class="col-6">
+            <h4>
+              Product Interface
+            </h4>
+            <p>
+              Product Interface verwijst naar informatie ontwerp waar grafische beelden informatie en feedback geven over de te verrichten handelingen door gebruik van woorden en/of symbolen. Typische toepassingen van Product Inferface zijn: user product inferface (analoog) en user inferface (digitaal)
+            </p>
+          </div>
+          <div class="col-6">
+            <img src="userinterface.jpeg" class="image"/>
+          </div>
+        </div>
+
+        <div class="row vormen">
+          <div class="col-6">
+            <img src="diagrammatic.jpeg" class="image"/>
+          </div>
+          <div class="col-6">
+            <h4>
+              Diagrammatic
+            </h4>
+            <p>
+              Schematische vormen bij informatie ontwerp zijn die waarbij redelijk nauwkeurige cijfers gedurende een bepaalde periode worden vastgelegd en verzameld. Over het algemeen gestructureerd op een x- en y-as. Typische toepassingen van Diagrammatic Information Design zijn: graph, table, bar chart, pie chart en timeline. De meeste van deze toepassingen zijn in het leven geroepen door William Playfair (1759).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container minderbreed">
+        <div class="row vormen">
+          <div class="col-6">
+            <h4>
+              Spatial/Cartographic
+            </h4>
+            <p>
+              Deze categorie verwijst naar kaarten en grafische netwerken voor geografisch gebruik. Typische voorbeelden van Spatial/Cartographic zijn: maps en navigational aids. Als je deze hiernaast herkend krijg je bonus punten. 
+            </p>
+          </div>
+          <div class="col-6">
+            <img src="cartographic.jpeg" class="image"/>
+          </div>
+        </div>
+
+        <div class="row vormen" style="margin-bottom: 20vh;">
+          <div class="col-6">
+            <img src="hybrid.jpeg" class="image"/>
+          </div>
+          <div class="col-6">
+            <h4>
+              Hybrid
+            </h4>
+            <p>
+              Deze vorm van Information Design verwijst naar de stukken die de gebruiker informeert, iets uitlegt en/of instrueert. Vaak bevat deze categorie van Information Design complexe combinaties van verschillende categorieën. Typische toepassingen zijn: training manuals, informational graphics, instructional graphics en how-to guides.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- tekst CMD? -->
+      <div class="container minderbreed" style="margin-bottom: 25vh;">
+        <p class="text-justify"> <h3><i>
+          Stap 3. Dat las je goed inderdaad, Product Interfaces zijn een onderdeel van Information Design. En dat is ook iets waar wij CMD'ers ons in verdiepen. Maar er zijn nog meer raakvlakken tussen Information Design en CMD.
+        </i></h3>
+      </div>
+
+      <!-- CMD? -->
+      <div class="container minderbreed">
+        <h2><font color="#0B24FB" id="CMD?" style="padding-top: 25vh;">Information design en CMD</font></h2>
+        <div class="row vormen" style="padding-top: 10vh;">
+          <div class="col-6">
+            <h4>
+              Vergelijkbare Process
+            </h4>
+            <p>
+              Kijk eens naar de visueel hier rechts. Komt het je bekend voor? Het lijkt best veel op die van CMD inderdaad. Bij CMD gaat het om de gebruiker en het product waar de interactie mee wordt aangegaan. Bij information design gaat het ook om de gebruiker, alleen komt er ook een stukje context van het desbetreffende onderwerp en een stukje content wat visueel gemaakt moet worden bij kijken. 
+            </p>
+            <p>
+              Het proces naar een Information Design lijkt ook op die van CMD. Je doet onderzoek, bedenkt concepten, gaat deze prototypen en testen en vervolgens uitwerken. Dit is net als bij CMD een iteratief proces. Kijk maar naar de visual hieronder.
+            </p>
+          </div>
+          <div class="col-6">
+            <img src="proces.jpg" class="image"/>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="container minderbreed" style="margin-bottom: 20vh;">
+        <img src="the-information-design-process.png" class="image2"/>
+      </div>
+
+      <!-- tekst TIPS & GUIDELINES -->
+      <div class="container minderbreed" style="margin-bottom: 20vh;">
+        <p class="text-justify"> <h3><i>
+          Stap 4. Net als bij het CMD proces doe je dus onderzoek, bedenk je concepten, ga je deze testen, je werkt ze uit en vervolgens ga je itereren. Klinkt bekend heh? Toch is het net ietsjes anders en daar kunnen deze tips je bij helpen.
+        </i></h3>
+      </div>
+
+      <!-- TIPS & GUIDELINES -->
+      <div class="container minderbreed" style="margin-bottom: 25vh;">
+        <h2><font color="#0B24FB" id="TIPS" style="padding-top: 25vh;">Tips & Guidelines</font></h2>
+
+        <div class="row vormen" style="padding-top: 10vh;">
+          <div class="col-6">
+            <h1><b>
+              Ontwerp voor de gebruiker
+            </b></h1>
+          </div>
+          <div class="col-6">
+            <p>
+              Vergeet nooit dat het ontwerp wat je maakt uiteindelijk bekeken, gelezen en begrepen moet worden door een persoon. Leer daarom goed de gebruiker kennen, zodat hij of zij begrijpt wat je gemaakt hebt. Op die manier kan de informatie ook beter verwerkt worden door de gebruiker.
+            </p>
+          </div>
+        </div>
+
+        <div class="row vormen">
+          <div class="col-6">
+            <h1><b>
+              Maak het visueel
+           </b></h1>
+          </div>
+          <div class="col-6">
+            <p>
+              Zoals we aan het begin al zeiden, de mens is een visueel wezen. Wij pakken informatie makkelijker op wanneer we het visueel voorgeschoteld krijgen. Maak daarom vooral veel visueel bij het maken van Information Design. 
+            </p>
+          </div>
+        </div>
+
+        <div class="row vormen">
+          <div class="col-6">
+            <h1><b>
+              Verschaf inzicht en duidelijkheid
+            </b></h1>
+          </div>
+          <div class="col-6">
+            <p>
+              Information Design is nodig omdat informatie niet altijd even makkelijk te begrijpen is. Hoe moeilijk is het om aan iemand uit te leggen hoe het universum eruit ziet. Precies, dat is onmogelijk. Maar met een informatieve visual die inzichtelijk is kan je het de gebruiker al een heel stuk makkelijker maken.
+            </p>
+          </div>
+        </div>
+
+        <div class="row vormen">
+          <div class="col-6">
+            <h1><b>
+              Form follows function
+            </b></h1>
+          </div>
+          <div class="col-6">
+            <p>
+              Zoals Louis Sullivan zei, vorm volgt functie. Information Design is de functionele tak van het fenomeen genaamd ontwerp. Zorg daarom dat jou visuals function ontworpen worden. Voeg geen tierelantijntjes toe of extra bling om cool te doen, maar ontwerp zodat de gebruiker makkelijk door je visual informatie tot zich kan nemen.
+            </p>
+          </div>
+        </div>
+
+        <div class="row vormen">
+          <div class="col-6">
+            <h1><b>
+              Communiceer eerlijk
+            </b></h1>
+          </div>
+          <div class="col-6">
+            <p>
+              Bij information design gaat het erom dat je de informatie zo efficient mogelijk verschaft aan de gebruiker. Zorg daarom dat de informatie die je visualiseert eerlijk is. Ga vooral niet om het feit heen en zeg gewoon waar het op staat. Als de gebruiker jouw information design gezien heeft moet diegene meteen doorhebben hoe het zit.
+            </p>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- tekst TOOLS -->
+      <div class="container minderbreed" style="margin-bottom: 20vh;">
+        <p class="text-justify"> <h3><i>
+          Stap 5. Nu je weet welke stappen je moet zetten om Information Design te maken en waar je allemaal op moet letten is het ook handig om te weten welke tools je nodig hebt.
+        </i></h3>
+      </div>
+
+      <!-- TOOLS -->
+      <div class="container minderbreed" style="margin-bottom: 25vh;">
+        <h2><font color="#0B24FB" id="TOOLS" style="padding-top: 25vh;">Tools</font></h2>
+
+        <div class="row vormen" style="padding-top: 5vh;">
+          <ul>
+            <h1>
+              <li>Adobe Indesign</li>
+              <li>Adobe Illustrator</li>
+              <li>Adobe XD</li>
+              <li>Figma</li>
+              <li>Sketch</li>
+              <li>InVision Studio</li>
+              <li>Affinity Designer</li>
+              <li>Vectr</li>
+              <li>Grafit Designer</li>
+              <li>Inkscape</li>
+            </h1>
+          </ul>
+            <div style="padding-top: 5vh;">
+            <h1>
+              Er zijn heeeel veel verschillende tools. Check vooral welke jij het beste vindt werken en ga daarmee aan de slag. Er is geen juiste programma om in te werken.
+            </h1>
+          </div>
+        
+        </div>
+
+      <!-- tekst Einde -->
+      <div class="container minderbreed" style="margin-bottom: 20vh;">
+        <p class="text-justify"> <h3><i>
+          That's all folks. Nu weet jij waar information design goed voor is, welke verschillende vormen er zijn, welke stappen je moet zetten om tot een goede Information Design te komen en welke tools je ervoor kunt gebruiken tijdens het uitwerken. Good luck! :)
+        </i></h3>
+      </div>
+
+      <!-- sticky footer -->
+      <div class="footer">
+        <h20>© 2020 EDVIN</h20>
       </div>
 
     <!-- optional JavaScript -->
@@ -120,5 +416,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="myjs.js"></script>
   </body>
 </html>
