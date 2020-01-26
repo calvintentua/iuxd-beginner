@@ -1,22 +1,14 @@
-.minderbreed {
-    width: 70%;
-}
-
-#headertitle {
-    line-height: 0.8em;
-}
-
-nav {
-    width: 100%;
-    background: #F7F5E8;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
+body {
+	font-family: Helvetica;
 }
 
 li {
-    display: inline;
-    padding: 10px;
+	display: inline;
+	padding: 10px;
+}
+
+ul {
+	padding-left: 0px;
 }
 
 a {
@@ -26,33 +18,92 @@ a {
 
 a:hover {
     color: #0B24FB;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
 }
 
-.image {
-    width: 400px;
-    height: auto;
+h1 {
+	font-size: 7em;
+	line-height: 0.8em;
+	color: blue;
 }
 
-.image2 {
-    width: 850px;
-    height: auto;
+#header {
+	height: 100vh;
+	padding-top: 30vh;
+}
+
+#watwaaromhoe {
+	padding-top: 12vh;
+	padding-bottom: 12vh;
+	background-color: #f7f5e8;
+}
+
+#Edward {
+	padding-top: 12vh;
+	padding-bottom: 12vh;
+}
+
+.vormdiv {
+	margin-bottom: 15vh;
+}
+
+#procesimg {
+	height: 40vh;
+	width: auto;
+}
+
+#designprocesimg {
+	width: 100%;
+	height: auto;
+}
+
+#halvebreedte {
+	width: 50%;
+}
+
+#divrechts {
+	width: 50%;
+	float: right;
+}
+
+#voorbeelden {
+	background-color: #e2e2e2}
+
+#quote {
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+#naastquote {
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.practiceimg {
+	width: 100%;
+	height: auto;
 }
 
 .vormen {
-    margin-bottom: 12vh;
+	width: 100%;
+	height: auto;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+.Titel {
+	font-size: 4em;
+	font-weight: 500;
+	color: blue;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: #0B24FB;
-    text-align: justify;
- }
+h6 {
+	font-size: 9pt;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+#CMD {
+	background-color: #f7f5e8;
+}
